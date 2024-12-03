@@ -1,0 +1,5 @@
+[phases.setup]
+  nixPkgs = ['(sbt.override { jre = jdk8; })', 'openjdk8-bootstrap']
+
+[start]
+  runImage = 'eclipse-temurin:8u432-b06-jre'
